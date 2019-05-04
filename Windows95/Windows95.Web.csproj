@@ -147,6 +147,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout_Template.cshtml" />
     <Content Include="webpack.common.js" />
+    <Content Include="webpack.production.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -158,6 +159,7 @@
     <None Include="packages.config" />
     <Content Include="tsconfig.json" />
     <Content Include="webpack.dev.js" />
+    <Content Include="src\index.less" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="src\index.ts" />
