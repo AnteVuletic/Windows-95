@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="windows95">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,16 @@
     <main>
         @RenderBody()
     </main>
-    <footer>
+    <footer ng-controller="navigation">
+        <div ng-hide="isOptions">
+            
+        </div>
+        <nav class="navigation border">
+            <button ng-click="toggleOptions()" class="homeIcon border">
+                <img src="~/src/Assets/images/win95icon.png" draggable="false"/>
+                <p>Start</p>
+            </button>
+        </nav>
     </footer>
 
     @RenderSection("scripts", required: false)

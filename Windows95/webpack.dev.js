@@ -6,9 +6,8 @@ const CommonConfig = require("./webpack.common.js");
 module.exports = Merge(CommonConfig, {
     mode: "development",
     devtool: "inline-source-map",
-
+    watch: true,
     entry: path.resolve(__dirname, "src/index.ts"),
-
     output: {
         filename: "bundle.js",
         path: __dirname + "/dist",

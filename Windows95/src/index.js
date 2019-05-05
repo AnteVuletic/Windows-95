@@ -1,3 +1,3 @@
 import "./index.less";
-import "angular";
+import "./Controllers/navigation.controller";
 //# sourceMappingURL=index.js.map

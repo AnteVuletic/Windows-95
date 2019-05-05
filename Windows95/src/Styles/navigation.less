@@ -1,0 +1,36 @@
+﻿@windows-default-background : #C0C0C0;
+@footer-navigation-height: 30px;
+
+.border {
+    box-shadow: 1px 0.5px 1px 0.5px black;
+    border: 1px solid #fff;
+}
+.navigation {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 1px;
+    left: 1px;
+    z-index: 0;
+    height: @footer-navigation-height;
+    background-color: @windows-default-background;
+}
+.homeIcon{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    height: @footer-navigation-height;
+    width: 100px;
+}
+.homeIcon img{
+    outline: 0;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+.homeIcon p{
+    display: inline-block;
+    margin: 0;
+    font-family: Arial;
+    font-size: 20px;
+}
